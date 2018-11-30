@@ -1,6 +1,8 @@
+language: c
+
 script:
         make clean
         make test
 
-        #install:
-        # make dep
+install:
+        make dep

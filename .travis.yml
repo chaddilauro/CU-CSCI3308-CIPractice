@@ -1,4 +1,5 @@
 script:
+        make clean
         make test
 
 install:
